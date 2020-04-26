@@ -3,6 +3,6 @@ class profile::base {
     ensure => present
   }
 }
-[fletch@localhost manifests]$ cat db.pp 
+
 class profile::db {
 }
